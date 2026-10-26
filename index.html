@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling com Dados - Notebook</title>
+    <!-- Vinculando o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📊 Análise de Dados Automatizada</h1>
+        <p class="subtitle">Explore as 3 partes fundamentais da nossa história de dados navegando pelas abas abaixo.</p>
+    </header>
+
+    <!-- Container Estrutural das 3 Pastas -->
+    <div class="tabs-container">
+        <nav class="tab-menu">
+            <button class="tab-btn active" data-target="parte1">📁 Parte 1: Começo</button>
+            <button class="tab-btn" data-target="parte2">📁 Parte 2: Meio</button>
+            <button class="tab-btn" data-target="parte3">📁 Parte 3: Fim</button>
+        </nav>
+
+        <!-- Pasta 1: Começo -->
+        <div id="parte1" class="tab-content active">
+            <h2>🏁 Introdução e Preparação do Terreno</h2>
+            <p>Esta etapa foca em alinhar as expectativas do projeto e preparar os dados brutos.</p>
+            <h3>1.1. Contexto e Objetivos</h3>
+            <ul>
+                <li>Definição do problema de negócio.</li>
+                <li>Métricas de sucesso da análise.</li>
+            </ul>
+            <h3>1.2. Setup do Ambiente</h3>
+            <div class="code-mock">import pandas as pd<br>import matplotlib.pyplot as plt</div>
+        </div>
+
+        <!-- Pasta 2: Meio -->
+        <div id="parte2" class="tab-content">
+            <h2>🔍 Limpeza e Exploração (EDA)</h2>
+            <p>O coração do projeto. Onde limpamos as inconsistências e descobrimos os padrões ocultos.</p>
+            <h3>2.1. Tratamento de Dados</h3>
+            <ul>
+                <li>Remoção de valores duplicados e nulos.</li>
+                <li>Conversão de tipos de variáveis (Texto para Data/Número).</li>
+            </ul>
+            <h3>2.2. Visualizações Práticas</h3>
+            <ul>
+                <li>Análise de correlação entre variáveis.</li>
+                <li>Identificação de Outliers.</li>
+            </ul>
+        </div>
+
+        <!-- Pasta 3: Fim -->
+        <div id="parte3" class="tab-content">
+            <h2>🎯 Conclusões e Insights Práticos</h2>
+            <p>A entrega de valor. Transformamos linhas de código em decisões estratégicas.</p>
+            <h3>3.1. O Insight de Ouro</h3>
+            <ul>
+                <li>Apresentação do gráfico final resumido.</li>
+                <li>Descobertas mais impactantes do projeto.</li>
+            </ul>
+            <h3>3.2. Próximos Steps</h3>
+            <ul>
+                <li>Recomendações baseadas nos dados.</li>
+                <li>Sugestões de melhorias para modelos preditivos futuros.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Vinculando o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
+
